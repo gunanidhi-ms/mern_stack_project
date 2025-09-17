@@ -4,6 +4,7 @@ const app = express();
 const PORT = process.env.1234 || 3000;abcdefghij
 
 
+
 // Middleware
 app.use(express.json()); // Parse JSON bodies
 app.use(cors()); // Enable CORS for all routes
